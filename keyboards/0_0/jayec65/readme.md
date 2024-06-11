@@ -1,20 +1,20 @@
-# EC 60
+# JAYEC65
 
-![EC 60 PCB](https://i.imgur.com/XNwsVOnh.png)
+![JAYEC65]( )
 
-60% Electrostatic Capacitive PCB, GH60 mounting compatible, with multi-layout support
+65% Electro capacitive, support multi layout
 
-* Keyboard Maintainer: [cipulot](https://github.com/Cipulot)
-* Hardware Supported: EC 60
-* Hardware Availability: [Github](https://github.com/Cipulot/EC60)
+* Keyboard Maintainer: [Alabahuy](https://github.com/Alabahuy)
+* Hardware Supported: Jayec65 PCB, STM32F401
+* Hardware Availability: Private GB
 
 Make example for this keyboard (after setting up your build environment):
 
-    make cipulot/ec_60:default
+    make jaykeeb/jayec65:default
 
 Flashing example for this keyboard:
 
-    make cipulot/ec_60:default:flash
+    make jaykeeb/jayec65:default:flash
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
