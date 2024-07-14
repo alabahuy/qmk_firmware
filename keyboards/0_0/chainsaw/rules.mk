@@ -6,8 +6,8 @@ QUANTUM_PAINTER_DRIVERS += st7789_spi
 
 LTO_ENABLE = yes
 
-POINTING_DEVICE_ENABLE = yes
-POINTING_DEVICE_DRIVER = analog_joystick
+#POINTING_DEVICE_ENABLE = yes
+#POINTING_DEVICE_DRIVER = analog_joystick
 
 #Additional Configuration to fix compiler issue
 OPT_DEFS = -O2
