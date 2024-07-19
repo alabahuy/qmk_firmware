@@ -5,17 +5,22 @@
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
     "features": {
+        "backlight": true,
         "bootmagic": true,
         "mousekey": true,
         "extrakey": true,
         "console": false,
         "command": false,
-        "nkro": true,
-        "pointing_device": true
+        "nkro": true
     },
     "matrix_pins": {
         "cols": ["GP0", "GP1", "GP2", "GP3", "GP4", "GP5", "GP12", "GP11", "GP10", "GP9", "GP8", "GP7"],
         "rows": ["GP6", "GP15", "GP14", "GP23", "GP24"]
+    },
+    "backlight": {
+        "pin": "GP22",
+        "levels": 5,
+        "breathing": false
     },
     "processor": "RP2040",
     "url": "",
