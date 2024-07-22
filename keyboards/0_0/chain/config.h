@@ -10,7 +10,7 @@
 
 /* LCD Configuration */
 #define LCD_RST_PIN GP17
-#define LCD_CS_PIN GP21
+#define LCD_CS_PIN NO_PIN
 #define LCD_DC_PIN GP20
 
 /* ChibiOS SPI definitions */

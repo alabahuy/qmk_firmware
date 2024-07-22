@@ -15,4 +15,4 @@ EXTRALDFLAGS = -Wl,--defsym,FLASH_LEN=8192k
 #DEFERRED_EXEC_ENABLE = yes
 
 #SRC += graphics1/anime.qgf.c
-SRC += graphics1/luffy.qgf.c
+SRC += graphics/win.qgf.c
