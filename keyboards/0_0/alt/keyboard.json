@@ -21,26 +21,14 @@
         }
     },
     "features": {
-        "backlight": true,
+        "backlight": false,
         "bootmagic": true,
         "console": false,
-        "encoder": true,
+        "encoder": false,
         "extrakey": true,
         "nkro": false,
         "pointing_device": false,
-        "quantum_painter": true
-    },
-    "encoder": {
-        "rotary": [
-            {
-                "pin_a": "GP19",
-                "pin_b": "GP21",
-                "resolution": 4
-            }
-        ]
-    },
-    "backlight": {
-        "pin": "GP26"
+        "quantum_painter": false
     },
     "usb": {
         "device_version": "1.0.0",
@@ -111,3 +99,4 @@
         }
     }
 }
+

@@ -31,7 +31,7 @@
 /* PMW3360 settings */
 #define PMW33XX_CS_PIN GP5
 #define POINTING_DEVICE_ROTATION_90
-#define POINTING_DEVICE_INVERT_X
+//#define POINTING_DEVICE_INVERT_X
 
 /* disable debug print */
 //#define NO_DEBUG
