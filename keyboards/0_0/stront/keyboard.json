@@ -3,49 +3,6 @@
     "manufacturer": "Jaykeeb Studio",
     "url": " ",
     "maintainer": "Alabahuy",
-    "processor": "RP2040",
-    "bootloader": "rp2040",
-    "diode_direction": "COL2ROW",
-    "matrix_pins": {
-        "cols": ["GP28", "GP15", "GP14", "GP13", "GP8", "GP7", "GP6"],
-        "rows": ["GP5", "GP4", "GP3", "GP2"]
-    },
-    "split": {
-        "enabled": true,
-        "transport": {
-            "sync": {
-                "indicators": true,
-                "matrix_state": true,
-                "modifiers": true
-            }
-        }
-    },
-    "features": {
-        "backlight": true,
-        "bootmagic": true,
-        "console": false,
-        "encoder": true,
-        "extrakey": true,
-        "nkro": false,
-        "quantum_painter": true
-    },
-    "encoder": {
-        "rotary": [
-            {
-                "pin_a": "GP19",
-                "pin_b": "GP21",
-                "resolution": 4
-            }
-        ]
-    },
-    "backlight": {
-        "pin": "GP26"
-    },
-    "usb": {
-        "device_version": "1.0.0",
-        "pid": "0x1132",
-        "vid": "0x414C"
-    },
     "layouts": {
         "LAYOUT": {
             "layout": [
@@ -108,5 +65,70 @@
                 { "matrix": [7, 3], "x": 11, "y": 3 }
             ]
         }
+    },
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "matrix_pins": {
+        "cols": ["GP28", "GP15", "GP14", "GP13", "GP8", "GP7", "GP6"],
+        "rows": ["GP5", "GP4", "GP3", "GP2"]
+    },
+    "split": {
+        "enabled": true,
+        "transport": {
+            "sync": {
+                "indicators": true,
+                "matrix_state": true,
+                "modifiers": true
+            }
+        }
+    },
+    "encoder": {
+        "rotary": [
+            {
+                "pin_a": "GP19",
+                "pin_b": "GP21",
+                "resolution": 4
+            }
+        ]
+    },
+    "features": {
+        "backlight": true,
+        "bootmagic": true,
+        "console": false,
+        "encoder": true,
+        "extrakey": true,
+        "nkro": false,
+        "pointing_device": true,
+        "quantum_painter": true,
+        "rgblight": true
+    },
+    "backlight": {
+        "pin": "GP26"
+    },
+    "ws2812": {
+        "driver": "vendor",
+        "pin": "GP16"
+    },
+    "rgblight": {
+        "led_count": 1,
+        "max_brightness": 185,
+        "animations": {
+            "breathing": true,
+            "rainbow_mood": true,
+            "rainbow_swirl": true,
+            "snake": true,
+            "knight": true,
+            "christmas": true,
+            "static_gradient": true,
+            "rgb_test": true,
+            "alternating": true,
+            "twinkle": true
+        }
+    },
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0844",
+        "vid": "0xFEED"
     }
 }

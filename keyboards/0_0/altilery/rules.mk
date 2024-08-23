@@ -7,3 +7,5 @@ QUANTUM_PAINTER_LVGL_INTEGRATION = yes
 
 SRC += lvgl_helpers.c \
 	   display.c
+
+OPT_DEFS = -2
