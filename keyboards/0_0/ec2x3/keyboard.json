@@ -46,11 +46,11 @@
     "url": "https://www.github.com/Cipulot/EC23U",
     "usb": {
         "device_version": "0.0.1",
-        "pid": "0x6B95",
+        "pid": "0x1123",
         "shared_endpoint": {
             "keyboard": true
         },
-        "vid": "0x6369"
+        "vid": "0x414C"
     },
     "layouts": {
         "LAYOUT_ortho_2x3": {
