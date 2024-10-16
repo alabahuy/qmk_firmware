@@ -1,5 +1,5 @@
 CUSTOM_MATRIX = lite
 ANALOG_DRIVER_REQUIRED = yes
-VPATH += keyboards/0_0/common
+VPATH += keyboards/0_0/ecpad/matrix
 SRC += matrix.c ec_board.c ec_switch_matrix.c
-OPT = 2
+OPT = 3

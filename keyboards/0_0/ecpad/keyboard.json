@@ -1,6 +1,6 @@
 {
     "manufacturer": "Alabahuy",
-    "keyboard_name": "EC 23",
+    "keyboard_name": "EC 2x3",
     "maintainer": "Cipulot",
     "bootloader": "stm32-dfu",
     "build": {
@@ -12,37 +12,13 @@
             "resync": true
         }
     },
-    "diode_direction": "COL2ROW",
+    "diode_direction": "ROW2COL",
     "features": {
         "bootmagic": false,
         "console": true,
-        "extrakey": true,
-        "mousekey": true,
-        "nkro": true,
-        "rgblight": true
-    },
-    "indicators": {
-        "num_lock": "B14"
+        "nkro": true
     },
     "processor": "STM32F401",
-    "rgblight": {
-        "led_count": 21,
-        "animations": {
-            "alternating": true,
-            "breathing": true,
-            "christmas": true,
-            "knight": true,
-            "rainbow_mood": true,
-            "rainbow_swirl": true,
-            "rgb_test": true,
-            "snake": true,
-            "static_gradient": true,
-            "twinkle": true
-        }
-    },
-    "ws2812": {
-        "pin": "B5"
-    },
     "url": "https://www.github.com/Cipulot/EC23U",
     "usb": {
         "device_version": "0.0.1",

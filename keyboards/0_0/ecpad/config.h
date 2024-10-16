@@ -18,26 +18,17 @@
 
 #define MATRIX_ROWS 2
 #define MATRIX_COLS 3
+#define MATRIX_ROW_PINS { B13, B12 }
 
-#define MATRIX_ROW_PINS \
-    { B13, B12 }
+// jumlah mux
+#define AMUX_COUNT              1
+#define AMUX_MAX_COLS_COUNT     3
 
-#define AMUX_COUNT 1
-#define AMUX_MAX_COLS_COUNT 3
-
-#define AMUX_EN_PINS \
-    { C15 }
-
-#define AMUX_SEL_PINS \
-    { C14, C13, B6 }
-
-#define AMUX_COL_CHANNELS_SIZES \
-    { 3 }
-
-#define AMUX_0_COL_CHANNELS \
-    { 4, 6, 3 }
-
-#define AMUX_COL_CHANNELS AMUX_0_COL_CHANNELS
+#define AMUX_EN_PINS            { C15 }
+#define AMUX_SEL_PINS           { C14, C13, B6 }
+#define AMUX_COL_CHANNELS_SIZES { 3 }
+#define AMUX_0_COL_CHANNELS     { 4, 6, 3 }
+#define AMUX_COL_CHANNELS       AMUX_0_COL_CHANNELS
 
 #define DISCHARGE_PIN A3
 #define ANALOG_PORT A2
@@ -58,7 +49,4 @@
 
 #define DISCHARGE_TIME 10
 
-// #define DEBUG_MATRIX_SCAN_RATE
-
-#define EECONFIG_KB_DATA_SIZE 57
-
+#define EECONFIG_KB_DATA_SIZE 21
