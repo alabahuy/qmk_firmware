@@ -16,11 +16,11 @@
 #define AUDIO_CLICKY
 
 /* Haptics */ 
-#define SOLENOID_PIN GP17
-#define SOLENOID_DEFAULT_DWELL 20
-#define SOLENOID_MIN_DWELL 4
-#define HAPTIC_OFF_IN_LOW_POWER 1
-#define NO_HAPTIC_MOD
+//#define SOLENOID_PIN GP17
+//#define SOLENOID_DEFAULT_DWELL 20
+//#define SOLENOID_MIN_DWELL 4
+//#define HAPTIC_OFF_IN_LOW_POWER 1
+//#define NO_HAPTIC_MOD
 
 /* ChibiOS SPI definitions */
 #define SPI_DRIVER SPID0
