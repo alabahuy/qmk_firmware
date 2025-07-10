@@ -22,6 +22,8 @@
 #define MATRIX_ROW_PINS \
     { A8, B15, B1, B0, A7 }
 
+#define UNUSED_POSITIONS_LIST { {4, 3}, {4, 4}, {4, 5}, {4, 6}, {4, 8}, {4, 9} }
+
 #define AMUX_COUNT 2
 #define AMUX_MAX_COLS_COUNT 8
 
