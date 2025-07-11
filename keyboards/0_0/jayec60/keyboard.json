@@ -3,6 +3,9 @@
     "keyboard_name": "JayEC 60",
     "maintainer": "Alabahuy",
     "bootloader": "stm32-dfu",
+    "build": {
+        "lto": true
+    },
     "diode_direction": "COL2ROW",
     "features": {
         "bootmagic": false,
@@ -12,23 +15,16 @@
         "nkro": true
     },
     "processor": "STM32F401",
-    "url": "",
-    "usb": {
-        "device_version": "0.0.1",
-        "pid": "0x1160",
-        "vid": "0x414C",
-        "shared_endpoint": {
-            "keyboard": true
-        }
-    },
-    "build": {
-        "lto": true
-    },
     "qmk": {
         "locking": {
             "enabled": true,
             "resync": true
         }
+    },
+    "usb": {
+        "device_version": "0.0.1",
+        "pid": "0x1160",
+        "vid": "0x414C"
     },
     "community_layouts": [
         "60_ansi",
@@ -245,6 +241,6 @@
                 {"label": "GUI", "matrix": [4, 11], "x": 12.5, "y": 4},
                 {"label": "Ctrl", "matrix": [4, 13], "x": 13.5, "y": 4, "w": 1.5},
             ]
-        },
+        }
     }
 }
