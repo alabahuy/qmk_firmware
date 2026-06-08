@@ -14,26 +14,9 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "ec_switch_matrix.h"
-#include "matrix.h"
+#pragma once
 
-// Custom matrix init function
-void matrix_init_custom(void) {
-    // Initialize EC
-    ec_init();
+#include_next <mcuconf.h>
 
-    // Get the noise floor at boot
-    ec_noise_floor();
-}
-
-// Custom matrix scan function
-bool matrix_scan_custom(matrix_row_t current_matrix[]) {
-    bool updated = ec_matrix_scan(current_matrix);
-
-    return updated;
-}
-
-// Bootmagic overriden to avoid conflicts with EC
-void bootmagic_scan(void) {
-    ;
-}
+#undef STM32_ADC_USE_ADC1
+#define STM32_ADC_USE_ADC1 TRUE
